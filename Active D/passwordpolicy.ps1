@@ -14,3 +14,5 @@ Set-ADDefaultDomainPasswordPolicy `
 # Note: Remove `-WhatIf` and `-Confirm` parameters if you want to apply changes directly.
 # The `-WhatIf` parameter simulates the changes that would be made by the script without actually applying them.
 # The `-Confirm` parameter prompts you for confirmation before executing the cmdlet.
+  # Forces an immediate update of Group Policy settings
+```

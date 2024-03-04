@@ -1,0 +1,3 @@
+Get-ADOrganizationalUnit -Filter * | Format-Table Name, DistinguishedName -Autowidth
+Get-ADOrganizationalUnit -Filter * | Format-Table Name, DistinguishedName -Autowidth
+Get-ADOrganizationalUnit -Filter 'Name -like "*sales*"' | Format-Table Name, DistinguishedName -Autowidth
